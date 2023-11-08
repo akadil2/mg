@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg width="100%" height="100%" version="1.0" state='normal viewBox="0 0 300 80"'
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style type="text/css">
+        .st1{
+            fill:  #00000000;
+        }
+       
+
+
+        .st01{
+            fill:  #00000000;
+        }
+
+        
+}
+    </style>
+
+    <defs>
+
+
+    <!-- The middle head --> 
+        <svg class="st12" height="100%"
+            width='100%' id='middle' style="background-color: #000000;">
+        <svg class='head input-source st11'  
+            height="100%"
+            width='100%' 
+            viewBox="0 0 15 30"
+            preserveAspectRatio="xMinYMin"
+            >
+             <polyline width="100%" height="100%" stroke="#00000000" stroke-width="3.8" class="st01" points="10,0 160,0 10,0"/>
+              <polyline width="100%" height="100%" stroke="white" stroke-width="3.8" class="st01" points="10,30 160,30 10,30"/>
+        </svg>
+       </svg>
+    
+        <!-- The right head --> 
+        <svg class="st12" height="100%"
+            width='100%' id='right' style="background-color: #000000;">
+        <svg class='head input-source st11'  
+            height="100%"
+            width='100%' 
+            viewBox="0 0 15 30"
+            preserveAspectRatio="xMaxYMid"
+            >
+             <polyline width="100%" height="100%" stroke="#00000000" stroke-width="6" class="st01" points="20,0 0,0 0,60 25,50"/>
+           <polyline class="st0" stroke="#808183" stroke-width="2" points="-130,1.05 6.8,1.05 13.85,9.8 13.85,21.4 6.8,28.95 -130,28.97  "/>
+
+        </svg>
+       </svg>
+
+
+        <!-- The left head --> 
+        <svg class="st12" height="100%"
+            width='100%' id='left' style="background-color: #000000;">
+        <svg class='head input-source st11'  
+            height="100%"
+            width='100%' 
+            viewBox="0 0 15 30"
+            preserveAspectRatio="xMinYMid"
+            >
+            <polyline width="100%" height="100%" stroke="#00000000" stroke-width="6" class="st01" points="20,0 0,0 0,60 25,50"/>
+            <polyline width="100%" height="100%" stroke="#808183" stroke-width="2" class="st0" points="126.1,28.95 8.8,28.90 1.1,21.4 1.1,9.8 8.8,1.05 126.1,1.05 "/>
+
+        </svg>
+
+       </svg>
+    </defs>
+
+
+    <svg
+        width="100%" height="100%" 
+        class='input-source st1'
+        stroke='white'
+        
+        fill="#000000"
+        preserveAspectRatio="xMinYMin">
+
+       
+        <!-- <use xlink:href='#middle'/> -->
+        <use xlink:href='#right'/>
+        <use xlink:href='#left'/> 
+    </svg> 
+
+
+</svg>
